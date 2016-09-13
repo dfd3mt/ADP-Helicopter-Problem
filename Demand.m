@@ -1,3 +1,5 @@
+function AMR = AMRrequest  %Can add input arguments later like the some of the state info
+
 NumHLZ=1:6;                         %get from Network.m
 NumAMRs=randi(6);                   %Number of AMR's to be considered during horizon
 AMRAtt=8;                           %Number of attributes of the AMR object
