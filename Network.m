@@ -1,3 +1,5 @@
+function HLZ=HLZnetwork %Can add input arguments later
+%only need to compile adjacency matrix once. This file probably needs to be called once at the beginning of the program.  Need to call the open closed indicator a number of times.
 NumHLZ=6;
 GridLoc=[22 14;24 30;17 44;28 34;43 35;21 11];
 HLZAttr=3;
